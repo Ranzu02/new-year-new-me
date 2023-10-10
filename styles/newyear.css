@@ -86,6 +86,11 @@ ul {
 
 }
 
+.positive-mindset {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 #my-plans-header {
     color: #151414;
     font-family: Work Sans;
@@ -109,17 +114,118 @@ ul {
     font-family: Work Sans;
     font-size: 30px;
     font-weight: 700;
-    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
-.learning-items h5 {
-    
-    color:#737272;
+.learning-items p {
+
+    color: #737272;
     text-align: center;
     font-family: Work Sans;
     font-size: 25px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding: 0px;
+    padding-top: 0px;
+}
+
+.mindset-title-container {
+    background-image: url('../images/watch.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scale: cover;
+    height: 250px;
+    border-radius: 8px;
+    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%); */
+
+}
+
+.mindset-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin: 0px;
+
+}
+
+.btn2 {
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0px;
+
+}
+
+.mind-set {
+    padding-top: 20px;
+    padding-left: 35px;
+    width: 500px;
+    margin-bottom: 0px;
+
+}
+
+.footer-container {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px;
+
+}
+
+.footer-description {
+    width: 485px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.email-and-phone {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.subscribe {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 0px;
+}
+
+.footer-item-2 {
+    
+}
+
+.email-box {
+    width: 325px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    text-align: center;
+    background: var(--Dark-01, #151414);
+}
+
+.contact {
+    display: block;
 }
